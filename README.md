@@ -10,6 +10,10 @@ Say hello to someone by name:
 
   * [bryanp.bin.proc.run/hello?name=proc](https://bryanp.bin.proc.run/hello?name=proc)
 
+Increment a counter, then return the current value:
+
+  * [bryanp.bin.proc.run/counter](https://bryanp.bin.proc.run/counter)
+
 Create a single-use action (probably not available!):
 
   * [bryanp.bin.proc.run/once](https://bryanp.bin.proc.run/once)
@@ -17,6 +21,10 @@ Create a single-use action (probably not available!):
 Check the health of a given host:
 
   * [bryanp.bin.proc.run/http/check?host=proc.dev](https://bryanp.bin.proc.run/http/check?host=proc.dev)
+
+Create a basic auth endpoint:
+
+  * [bryanp.bin.proc.run/auth](https://bryanp.bin.proc.run/auth)
 
 ## Deploying To Proc
 

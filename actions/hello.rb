@@ -3,8 +3,8 @@
 action(name: "hello", public: true) {
   core.set(name: "name") {
     http.params
-    .| type.hash.value(key: "name")
+     .| type.hash.value(key: "name")
   }
-  .| type.string.build("hello ")
-  .| type.string.append(value: arg(:name, default: "???"))
+   .| type.string.build("hello ")
+   .| type.string.append(value: arg(:name, default: "???"))
 }

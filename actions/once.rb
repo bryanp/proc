@@ -2,5 +2,5 @@
 #
 action(name: "once", public: true) {
   action.delete(name: "once")
-  .| rand.string
+   .| rand.string
 }
