@@ -1,5 +1,7 @@
 **Examples for [Proc](https://proc.dev), a low-code platform for easily building behavior and shipping it instantly.**
 
+## Using Actions
+
 Each of the actions in this repo are accessible through `bryanp.bin.proc.run/{name}`.
 
 Check the health of proc:
