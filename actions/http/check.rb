@@ -1,7 +1,7 @@
 # Performs a request to the host defined by the `host` query parameter, returning the status name of the response. The
 # scheme can be passed through the `scheme` query parameter, defaulting to `https`.
 #
-action(name: "http.status", public: true) {
+action(name: "http.check", public: true) {
   core.set(name: "scheme") {
     http.params
     .| type.hash.value(key: "scheme")
